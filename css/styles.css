@@ -1,0 +1,71 @@
+/*******************************/
+        /* IMPORTS */
+/*******************************/
+
+
+/* Fonts */
+
+/* Manrope */
+/* Font Weight 800 */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+/* font-family: 'Manrope', sans-serif; */
+
+
+/*******************************/
+        /* VARIABLES */
+/*******************************/
+
+
+:root {
+
+	/* COLORS */
+	--light-cyan: hsl(193, 38%, 86%);
+	--neon-green: hsl(150, 100%, 66%);
+	--grayish-blue: hsl(217, 19%, 38%);
+	--dark-grayish-blue: hsl(217, 19%, 24%);
+	--dark-blue: hsl(218, 23%, 16%);
+
+
+	/* FONTS */
+	--main-font: 'Manrope', sans-serif;
+       
+}
+
+
+/* HTML */
+/* Box-Sizing */
+
+html {
+  box-sizing: border-box;
+	font-size: 28px;
+	font-weight: 800;
+	font-family: var(--main-font);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*******************************/
+        /* STYLES */
+/*******************************/
+
+
+/* Body */
+.main-background-container {
+	background-color: var(--dark-blue);
+}
+
+
+/* Main */
+.main-content-container {
+	height: 12.25rem;
+	width: 11.25rem;
+	margin-top: 4.285714rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: var(--dark-grayish-blue);
+	border-radius: 0.357142rem;
+	box-shadow: 1.071428rem 1.785714rem 2.857142rem rgba(0, 0, 0, 0.100202);
+	text-align: center;
+}

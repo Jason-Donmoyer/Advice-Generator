@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jason-Donmoyer/Advice-Generator
-- Live Site URL: [Add live site URL here](https://jason-donmoyer.github.io/Advice-Generator/)
+- Solution URL: (https://github.com/Jason-Donmoyer/Advice-Generator
+- Live Site URL: (https://jason-donmoyer.github.io/Advice-Generator/)
 
 ## My process
 

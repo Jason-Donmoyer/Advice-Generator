@@ -135,6 +135,14 @@ html {
 @media screen and (min-width: 768px) {
 
 
+	/* Body */
+	.main-background-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+
 	/* Main Content Container */
 	.main-content-container {
 		width: 19.285714rem;

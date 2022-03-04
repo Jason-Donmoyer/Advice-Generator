@@ -34,7 +34,6 @@
 
 /* HTML */
 /* Box-Sizing */
-
 html {
   box-sizing: border-box;
 	font-size: 28px;
@@ -59,7 +58,7 @@ html {
 
 /* Main */
 .main-content-container {
-	height: 12.25rem;
+	min-height: 12.25rem;
 	width: 11.25rem;
 	margin-top: 4.285714rem;
 	margin-left: auto;
@@ -68,4 +67,124 @@ html {
 	border-radius: 0.357142rem;
 	box-shadow: 1.071428rem 1.785714rem 2.857142rem rgba(0, 0, 0, 0.100202);
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+/* Advice API Number */
+.advice-number {
+	padding-top: 1.428571rem;
+	font-size: 0.392857rem;
+	line-height: 0.535714rem;
+	letter-spacing: 0.123469rem;
+	color: var(--neon-green);
+}
+
+
+/* Advice Content */
+.advice-content {
+	margin-left: 0.857142rem;
+	margin-right: 0.857142rem;
+	padding-top: 0.857142rem;
+	padding-bottom: 0.857142rem;
+	font-size: 0.857142rem;
+	line-height: 1.178571rem;
+	letter-spacing: -0.009183rem;
+	color: var(--light-cyan);
+}
+
+
+/* Divider Image */
+.divider {
+	width: 10.535714rem;
+	height: 0.571428rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2.285714rem;
+	background-image: url(../images/pattern-divider-mobile.svg);
+}
+
+
+/* Get Advice Button */
+.get-advice-btn {
+	position: relative;
+	bottom: 1.071428rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 0;
+	border: none;
+	height: 2.285714rem;
+	width: 2.285714rem;
+	border-radius: 50%;
+	background-color: var(--neon-green);
+	background-image: url(../images/icon-dice.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/*******************************/
+        /* BREAKPOINTS */
+/*******************************/
+
+
+/* Tablet and Desktop */
+/* 768px */
+@media screen and (min-width: 768px) {
+
+
+	/* Main Content Container */
+	.main-content-container {
+		width: 19.285714rem;
+		min-height: 11.857142rem;
+	}
+
+
+	/* Advoce Number */
+	.advice-number {
+		padding-top: 1.714285rem;
+		font-size: 0.464285rem;
+		line-height: 0.642857rem;
+		letter-spacing: 0.145918rem;
+	}
+
+
+	/* Advice Content */
+	.advice-content {
+		padding-bottom: 1.428571rem;
+		font-size: 1rem;
+		line-height: 1.357142rem;
+		letter-spacing: -0.010714rem;
+	}
+
+
+	/* Divider Image */
+	.divider {
+		width: 15.857142rem;
+		background-image: url(../images/pattern-divider-desktop.svg);
+		margin-bottom: 2.571428rem;
+	}
+
+
+	/*******************************/
+     /* DESKTOP ACTIVE STATES */
+	/*******************************/
+
+	/* 1007px */
+	@media screen and (min-width: 1007px) {
+
+
+		/* Get Advice Button */
+		.get-advice-btn:hover {
+			cursor: pointer;
+			box-shadow: 0rem 0rem 1.428571rem #53FFAA;
+		}
+
+
+	}
+
+
+	
 }
